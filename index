@@ -1,0 +1,83 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+
+<title>VI Handtekening builder</title>
+<BASE HREF="output.php">
+
+</head>
+<body>
+<script type="javascript">
+function goToPage(url)
+{
+var initial = "http://www.vi.nl/files/handtekening_email/";
+var extension = "html";
+
+window.location(initial+url+extension);
+}
+</script>
+<p>
+</p><form name="something" action="#">
+  <table width="600px" border="0">
+    <tr>
+      <td><span style="font-family: arial; color:grey; ">Je volledige naam*</span></td>
+      <td>&nbsp;</td>
+      <td><span style="font-family: arial; color:grey; ">
+        <input name="naam" onsubmit="goToPage(this.value)" type="text">
+      </span></td>
+    </tr>
+    <tr>
+      <td><span style="font-family: arial; color:grey; ">Je functie*</span></td>
+      <td>&nbsp;</td>
+      <td><span style="font-family: arial; color:grey; ">
+        <input name="functie" onsubmit="goToPage(this.value)" type="text">
+      </span></td>
+    </tr>
+    <tr>
+      <td><span style="font-family: arial; color:grey; ">Je mobiele nummer</span></td>
+      <td>&nbsp;</td>
+      <td><span style="font-family: arial; color:grey; ">
+        <input name="tel" onsubmit="goToPage(this.value)" type="text">
+      (06-12345678)
+  </span></td>
+    </tr>
+    <tr>
+      <td><span style="font-family: arial; color:grey; ">Je doorkiesnummer*</span></td>
+      <td>&nbsp;</td>
+      <td><span style="font-family: arial; color:grey; ">
+        <input name="doorkies" onsubmit="goToPage(this.value)" type="text">
+      (1234)</span></td>
+    </tr>
+    <tr>
+      <td><span style="font-family: arial; color:grey; ">Je emailadres*</span></td>
+      <td>&nbsp;</td>
+      <td><span style="font-family: arial; color:grey; ">
+        <input name="email" onsubmit="goToPage(this.value)" type="text">
+      </span></td>
+    </tr>
+    <tr>
+      <td><span style="font-family: arial; color:grey; ">Je twitter account (indien gewenst)</span></td>
+      <td>&nbsp;</td>
+      <td><span style="font-family: arial; color:grey; ">
+        <input name="twitter" onsubmit="goToPage(this.value)" type="text">
+      </span></td>
+    </tr>
+    <tr>
+      <td><span style="font-family: arial; color:grey; ">Eventuele afwezigheid op welke dagen?</span></td>
+      <td>&nbsp;</td>
+      <td><span style="font-family: arial; color:grey; ">
+        <input name="afwezig" onsubmit="goToPage(this.value)" type="text">
+      </span></td>
+    </tr>
+  </table>
+  <p style="font-family: arial; color:grey; "><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <input value="GO" type="submit">
+  </p>
+</form>
+
+</body></html>
